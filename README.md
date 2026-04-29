@@ -1,6 +1,11 @@
 # 🚀 QuestPlanner
 
-AI-планировщик задач с Telegram-ботом и DevOps инфраструктурой.
+> 🚀 Full-stack AI Planner with DevOps infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-✓-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-✓-green)
+![CI/CD](https://img.shields.io/badge/CI/CD-Jenkins-red)
+![AI](https://img.shields.io/badge/AI-OpenAI-black)
 
 ---
 
@@ -18,7 +23,11 @@ AI-планировщик задач с Telegram-ботом и DevOps инфра
 
 ## 🧠 AI Planner
 
-Система помогает пользователю составлять планы, ставить цели и структурировать задачи с помощью искусственного интеллекта.
+Система помогает пользователю:
+
+- 📅 составлять планы (день / неделя / месяц)
+- 🎯 ставить цели
+- 🧠 получать персонализированные AI-рекомендации
 
 ---
 
