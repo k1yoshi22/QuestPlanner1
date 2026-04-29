@@ -22,24 +22,6 @@ AI-планировщик задач с Telegram-ботом и DevOps инфра
 
 ---
 
-## 📷 Preview
-
-### 🤖 Telegram Bot
-
-<p align="center">
-  <img src="screenshots/telegram.png" width="500"/>
-</p>
-
----
-
-### ⚙️ API (Swagger)
-
-<p align="center">
-  <img src="screenshots/swagger.png" width="700"/>
-</p>
-
----
-
 ## 🏗 Architecture
 
 <p align="center">
@@ -61,6 +43,10 @@ AI → OpenAI + Telegram Bot
 - 🎯 ставить цели
 - 🧠 получать AI-рекомендации
 
+<p align="center">
+  <img src="screenshots/telegram.png" width="450"/>
+</p>
+
 ---
 
 ## ⚙️ API (Swagger)
@@ -71,6 +57,10 @@ AI → OpenAI + Telegram Bot
 
 > ⚠️ Замените `YOUR_IP` на адрес вашего сервера  
 > или используйте `localhost`
+
+<p align="center">
+  <img src="screenshots/swagger.png" width="700"/>
+</p>
 
 ---
 
