@@ -1,45 +1,36 @@
 # 🚀 QuestPlanner
 
-Gamified task planner with AI support.
+AI-планировщик задач с Telegram-ботом и DevOps инфраструктурой.
 
 ---
 
-## 🧠 About Project
+## ⚡ Features
 
-QuestPlanner — это full-stack приложение для планирования задач с элементами геймификации и AI.
-
-Проект построен с использованием современных DevOps практик:
-- Docker
-- Jenkins (CI/CD)
-- Prometheus + Grafana (мониторинг)
-- Telegram Alerts
-- Terraform (IaC)
-- Ansible (автоматизация)
+- 🤖 AI ответы (OpenAI)
+- 📱 Telegram бот
+- ⚙️ FastAPI backend
+- 🐳 Docker (multi-container)
+- 🔁 Jenkins CI/CD
+- 📊 Monitoring (Prometheus + Grafana)
+- ☁️ Terraform (IaC)
 
 ---
 
-## 🏗️ Архитектура
+## 📸 Demo
 
-Frontend: Android (Java)  
-Backend: FastAPI (Python)  
-Database: PostgreSQL  
-Infrastructure: Docker + Nginx  
+### 🤖 Telegram Bot
 
----
-
-## ⚙️ Технологии
-
-- Python (FastAPI)
-- Docker & Docker Compose
-- Jenkins CI/CD
-- Prometheus & Grafana
-- Terraform
-- Ansible
-- Git & GitHub
+![Telegram](screenshots/telegram.png)
 
 ---
 
-## 📦 Запуск проекта
+### ⚙️ API (Swagger)
+
+![Swagger](screenshots/swagger.png)
+
+---
+
+## 🚀 Run
 
 ```bash
-docker compose up --build
+docker compose up -d --build
