@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="screenshots/profile.png" width="120"/>
-</p>
+# ⚡ QuestPlanner
 
-# 🚀 QuestPlanner
-
-> 🚀 Full-stack AI Planner with AI support
+> 🧠 Full-stack AI Planner with intelligent assistant
 
 ---
 
@@ -13,10 +9,17 @@
 QuestPlanner — мобильное приложение для планирования задач и личного прогресса в игровом формате.  
 Пользователь выполняет задачи, получает XP, повышает уровень и отслеживает свой прогресс.
 
+<p align="center">
+  <img src="screenshots/profile.png" width="220"/>
+</p>
+
 ---
 
 ## 🏗 Архитектура
+
+```text
 Android app → Nginx → FastAPI → PostgreSQL
+```
 
 - **Android app** — получает данные через API  
 - **Nginx** — reverse proxy  
@@ -61,3 +64,5 @@ Android app → Nginx → FastAPI → PostgreSQL
 
 ```bash
 docker compose up -d --build
+```
+
